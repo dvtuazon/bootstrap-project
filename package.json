@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "Beverly Laurel Hotel website",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvtuazon/Portfolio-Project.git"
+  },
+  "author": "David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvtuazon/Portfolio-Project/issues"
+  },
+  "homepage": "https://github.com/dvtuazon/Portfolio-Project#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
