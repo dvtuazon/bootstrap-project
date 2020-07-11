@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/dvtuazon/Portfolio-Project#readme",
   "dependencies": {
-    "lite-server": "^2.5.4"
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "lite-server": "^2.5.4",
+    "minimist": "^1.2.5",
+    "popper.js": "^1.16.1"
   }
 }

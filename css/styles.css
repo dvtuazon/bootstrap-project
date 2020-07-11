@@ -1,0 +1,18 @@
+.jumbotron {
+    padding: 30px;
+    background-color: #34e8eb;
+    background-image: linear-gradient(to bottom, white, #34e8eb);
+    text-transform: uppercase;
+    border-bottom: solid black 5px;
+}
+
+#beach {
+    mix-blend-mode: multiply;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.col-form-label {
+    text-transform: uppercase;
+}
