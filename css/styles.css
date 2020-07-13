@@ -1,18 +1,33 @@
 .jumbotron {
-    padding: 30px;
-    background-color: #34e8eb;
-    background-image: linear-gradient(to bottom, white, #34e8eb);
-    text-transform: uppercase;
-    border-bottom: solid black 5px;
-}
+  padding: 10px;
+  background-color: #34e8eb;
+  background-image: linear-gradient(to bottom, white, #34e8eb);
+  text-transform: uppercase;
+  border-bottom: solid #114c4d 1px; }
 
 #beach {
-    mix-blend-mode: multiply;
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
+  mix-blend-mode: multiply;
+  max-width: 80%;
+  margin: auto 0;
+  width: auto; }
 
-.col-form-label {
-    text-transform: uppercase;
-}
+#book:hover {
+  transform: translateY(-3px);
+  box-shadow: 8px 8px 12px black;
+  transition: all .2s; }
+
+#book:active {
+  transform: translateY(1px);
+  box-shadow: 4px 4px 8px black; }
+
+#covid {
+  border-bottom: solid #114c4d 1px;
+  background-color: #34f4f7; }
+
+.carousel-item {
+  width: 100%;
+  height: 450px;
+  object-fit: cover; }
+
+#reserveModal .modal-header {
+  background-color: orange; }
