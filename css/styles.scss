@@ -1,9 +1,21 @@
+$color-primary: #34e8eb;
+$color-primary-dark: #00bcbf;
+$color-white: white;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$color-orange: #fb6500;
+$color-dark-blue: #001c58;
+$color-yellow: #ffbb39;
+$color-teal: #4fb4b1;
+$color-mint: #b3e7b4;
+
+body {
+    background-color: $color-teal;
+}
+
 .jumbotron {
     padding: 10px;
-    background-color: #34e8eb;
-    background-image: linear-gradient(to bottom, white, #34e8eb);
-    text-transform: uppercase;
-    border-bottom: solid #114c4d 1px;
+    background-color: $color-mint;
 }
 
 #beach {
@@ -13,28 +25,39 @@
     width: auto;
 }
 
-#book:hover {
-    transform: translateY(-3px);
-    box-shadow: 8px 8px 12px black;
-    transition: all .2s;
-}
-
-#book:active {
-    transform: translateY(1px);
-    box-shadow: 4px 4px 8px black;
-}
-
 #covid {
-    border-bottom: solid #114c4d 1px;
-    background-color: #34f4f7;
+    background-color: $color-yellow;
+    height: 30px;
+}
+
+.carousel {
+    border: $color-white solid 4px;
 }
 
 .carousel-item {
     width: 100%;
     height: 450px;
-    object-fit: cover;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
-#reserveModal .modal-header {
-    background-color: orange;
+.btn-success,
+.btn-success:hover,
+.btn-success:active,
+.btn-success:visited,
+.btn-success:focus {
+    background-color: $color-teal;
+    border-color: $color-teal;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+#homeCarousel {
+    border-radius: 5px;
 }

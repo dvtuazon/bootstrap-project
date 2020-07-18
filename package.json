@@ -28,6 +28,7 @@
   "homepage": "https://github.com/dvtuazon/Portfolio-Project#readme",
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
     "jquery": "^3.5.1",
     "lite-server": "^2.5.4",
     "minimist": "^1.2.5",
