@@ -39,3 +39,20 @@ body {
 
 #homeCarousel {
   border-radius: 5px; }
+
+#phone {
+  background-color: rgba(255, 187, 57, 0.5); }
+
+#mail {
+  background-color: rgba(255, 187, 57, 0.5); }
+
+#aboutus {
+  background-color: rgba(255, 187, 57, 0.8);
+  font-size: 32px;
+  text-transform: uppercase;
+  border-radius: 15px; }
+
+#desc {
+  padding: 25px;
+  background-color: rgba(255, 187, 57, 0.8);
+  border-radius: 15px; }
