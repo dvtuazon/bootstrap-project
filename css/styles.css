@@ -46,7 +46,7 @@ body {
 #mail {
   background-color: rgba(255, 187, 57, 0.5); }
 
-#aboutus {
+.section-title {
   background-color: rgba(255, 187, 57, 0.8);
   font-size: 32px;
   text-transform: uppercase;
@@ -56,3 +56,18 @@ body {
   padding: 25px;
   background-color: rgba(255, 187, 57, 0.8);
   border-radius: 15px; }
+
+.avatar {
+  width: 150px; }
+
+.testimonial {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px; }
+  .testimonial:hover {
+    transform: translateY(-10px);
+    transform: scale(1.1);
+    transition: all .2s; }
+
+.btn-warning {
+  background-color: rgba(255, 187, 57, 0.8); }
