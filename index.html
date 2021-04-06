@@ -57,28 +57,26 @@
         </div>
     </header>
 
-    <nav class="navbar navbar-expand-sm navbar-light sticky-top pt-0">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top pt-0">
         <div class="container" style="background-color: #ffbb39; border-radius: 5px;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="bNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg pl-3"></i> Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#aboutus"><i class="fa fa-info fa-lg"></i> About
+                    <li class="nav-item"><a class="nav-link" href="#aboutus"><i class="fa fa-info fa-lg pl-3"></i> About
                             Us</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#reviews"><i class="fa fa-user-circle fa-lg"></i>
+                    <li class="nav-item"><a class="nav-link" href="#reviews"><i class="fa fa-user-circle fa-lg pl-3"></i>
                             Reviews</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-comment fa-lg"></i> Leave
+                    <li class="nav-item"><a class="nav-link" href="#feedback"><i class="fa fa-comment fa-lg pl-3"></i> Leave
                             Feedback</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-envelope fa-lg"></i> Contact
-                            Us</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
                     <a role="button" id="loginButton">
-                        <i class="fa fa-sign-in"></i> Login
+                        <i class="fa fa-sign-in pl-3"></i> Login
                     </a>
                 </span>
             </div>
@@ -209,7 +207,7 @@
                 </div>
             </div>
             <div class="row row-content">
-                <div class="col-12 col-sm-6 mt-5" id="desc">
+                <div class="col-12 col-md-6 mt-5" id="desc">
                     This Los Angeles motel features an outdoor pool and is within 5 minutes' walk from CBS Television
                     City, the Original Farmers Market and the Grove shopping center. It offers contemporary rooms with a
                     microwave and refrigerator.<br><br>
@@ -228,7 +226,7 @@
                 <div class="col col-sm-6">
                     <iframe class="mt-5"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.750757466688!2d-118.36664188493461!3d34.07590298059951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b9347b4dac9f%3A0x2b1bbeb7c551b46b!2s8018%20Beverly%20Blvd%2C%20Los%20Angeles%2C%20CA%2090048!5e0!3m2!1sen!2sus!4v1595061860991!5m2!1sen!2sus"
-                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        width="500" height="450" frameborder="0" id="map" allowfullscreen=""
                         aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
@@ -371,10 +369,62 @@
     <section id="feedback">
         <div class="container">
             <div class="row">
-                Feedback
+                <div class="col text-center my-5 section-title">
+                    Leave us feedback
+                </div>
             </div>
+            <form>
+                <div class="form-group d-flex justify-content-center">
+                    <label for="resId" class="col-form-label">Reservation ID#</label>
+                    <input type="text" id="resId" class="col-12 col-md-4 mx-auto">
+                </div>
+                <div class="form-group d-flex justify-content-center">
+                    <label for="rate" class="col-form-label mr-5">Rate us!</label>
+                    <input type="range" id="rate" class="custom-range col col-md-6 mx-auto">
+                </div>
+                <div class="form-group d-flex justify-content-center">
+                    <label for="msg" class="col-form-label">Tell us what you think!</label>
+                    <textarea id="msg" class="mx-auto" cols="100" rows="5"></textarea>
+                </div>
+                <div class="col text-center my-5">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </div>
+            </form>
         </div>
     </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="contactus.html">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+13236512441"><i class="fa fa-phone"></i>
+                        1-323-651-2441</a><br>
+                    <a role="button" class="btn btn-link" href="mailto:beverlylaurelhotel@att.net"><i
+                            class="fa fa-envelope-o"></i> beverylaurelhotel@att.net</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>

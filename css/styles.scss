@@ -102,3 +102,12 @@ body {
 .btn-warning {
     background-color: rgba($color-yellow, 0.8);
 }
+
+#map {
+    border: solid white 5px;
+    border-radius: 15px;
+}
+
+.site-footer {
+    background-color: $color-yellow;
+}

@@ -71,3 +71,10 @@ body {
 
 .btn-warning {
   background-color: rgba(255, 187, 57, 0.8); }
+
+#map {
+  border: solid white 5px;
+  border-radius: 15px; }
+
+.site-footer {
+  background-color: #ffbb39; }
